@@ -14,13 +14,6 @@
 }
 .tile:nth-of-type(2n) {
 	background-image: linear-gradient(gray, black);
-	transition: border-radius 250ms ease-out, transform 250ms;	
-}
-.tile:nth-of-type(2n):hover {
-	border-radius: 0 30px;
-	transform: translate(10%, 10%);
-	transform: rotate(90deg);
-
 }
 .row:nth-of-type(2n) {
 	flex-direction: row-reverse;
