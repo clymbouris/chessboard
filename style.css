@@ -1,16 +1,15 @@
 #board {
 	display: flex;
 	flex-wrap: wrap;
-	height: 800px;
-	width: 800px;
+	width: 96vw;
 }
 .row {
 	display: flex;
-	height: 100px;
 }
 .tile {
 	background-image: linear-gradient(to bottom right, white, gray);
-	width: 100px;
+	height: 12vw;
+	min-width: 12vw;
 }
 .tile:nth-of-type(2n) {
 	background-image: linear-gradient(gray, black);
